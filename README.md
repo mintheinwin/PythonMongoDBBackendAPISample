@@ -16,14 +16,23 @@ Setup for window
 Setup for Macbook
 
 1. Create a virtual environment
+   
    python -m venv .venv
-2. Check uvicon 
+3. Check uvicon
+   
    which uvicon
-3. Make conda deactivate from current one
+   
+5. Make conda deactivate from current one
+   
    conda deactivate
-4. make conda activavte for project path (Activate the virtual environment)
+6. make conda activavte for project path (Activate the virtual environment)
+   
    source .venv/bin/activate
-5. Install the required libraries/modules (from requirements.txt) into the virtual environment
+   
+7. Install the required libraries/modules (from requirements.txt) into the virtual environment
+
    python -m pip install -r requirements.txt
-6. Start the app using the command - in the root folder (not inside app folder)
+   
+8. Start the app using the command - in the root folder (not inside app folder)
+   
    python -m uvicorn app.main:app --reload 

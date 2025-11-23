@@ -2,6 +2,7 @@ Please run the following steps in the terminal, one by one, based on the list be
 
 Setup for window 
 1. Create a virtual environment
+
     python -m venv .venv
 
 2. Activate the virtual environment

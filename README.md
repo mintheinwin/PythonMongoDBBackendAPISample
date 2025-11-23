@@ -8,10 +8,12 @@ Setup for window
     .venv\Scripts\activate.bat
 
 3. Install the required libraries/modules (from requirements.txt) into the virtual environment
-    pip install -r requirements.txt
+    
+   pip install -r requirements.txt
 
 4. Start the app using the command - in the root folder (not inside app folder)
-    uvicorn app.main:app --reload
+
+   uvicorn app.main:app --reload
 
 Setup for Macbook
 

@@ -6,13 +6,14 @@ Setup for window
     python -m venv .venv
 
 2. Activate the virtual environment
+   
     .venv\Scripts\activate.bat
 
-3. Install the required libraries/modules (from requirements.txt) into the virtual environment
+4. Install the required libraries/modules (from requirements.txt) into the virtual environment
     
    pip install -r requirements.txt
 
-4. Start the app using the command - in the root folder (not inside app folder)
+5. Start the app using the command - in the root folder (not inside app folder)
 
    uvicorn app.main:app --reload
 
